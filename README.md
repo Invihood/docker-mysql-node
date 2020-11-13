@@ -1,3 +1,5 @@
+Команды для запуска контейнеров с сетью и вручную прописанным IP
+
 docker volume create mysql_volume
 
 docker network create --driver=bridge --subnet=172.28.0.0/16 --ip-range=172.28.5.0/24 --gateway=172.28.5.254 my-net
@@ -12,7 +14,7 @@ docker run --rm --net my-net --volume $(pwd)/server:/usr/src/app -p 8080:8080/tc
 
 
 
-
+Команды для запуска контейнеров с сетью
 
 docker volume create mysql_volume
 
