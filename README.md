@@ -1,4 +1,4 @@
-Команды для запуска контейнеров с сетью и вручную прописанным IP
+# Команды для запуска контейнеров с сетью и вручную прописанным IP
 
 docker volume create mysql_volume
 
@@ -14,7 +14,7 @@ docker run --rm --net my-net --volume $(pwd)/server:/usr/src/app -p 8080:8080/tc
 
 
 
-Команды для запуска контейнеров с сетью
+# Команды для запуска контейнеров с сетью
 
 docker volume create mysql_volume
 
